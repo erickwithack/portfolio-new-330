@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/1a0a933c54.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="nav-navbar">
+      <nav>
+        <div class="logo">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="night-mode" onclick="activateDarkMode()">
+          <span class="material-symbols-outlined"> nightlight </span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="avatar-image">
+      <img
+        src="https://cdn.dribbble.com/users/112330/screenshots/16392718/media/6706cd44f73bc679e30ec50fa38b07b5.png?compress=1&resize=1000x750&vertical=top"
+        alt="avatar pic"
+      />
+      <p class="title">Erick Meikoki</p>
+      <p class="icons">
+        <i class="fa-2x fa-brands fa-linkedin" onclick="openLinkedIn()"></i>
+        <i class="fa-2x fa-brands fa-github" onclick="openGitHub()"></i>
+      </p>
+      <p>
+        Check my <span class="emph"> Bio </span> and
+        <span class="emph"> Contact</span> Info
+        <a target="_blank" href="https://erickwithack.github.io/contact-bio/">
+          here</a
+        >
+      </p>
+      <p>
+        Check out my <span class="emph"> resume</span>
+        <a target="_blank" href="https://pdfhost.io/v/OXeWwY51Y_newresume">
+          here
+        </a>
+        too!
+      </p>
+    </div>
+
+    <div class="experience">
+      <h3>Experience</h3>
+      <p>
+        I'm a Software Engineer, freelancer and designer. I have two years of
+        Front-end experience at
+        <span>
+          <a
+            target="_blank"
+            href="https://www.servicenow.com/"
+            class="company-link"
+            >ServiceNow</a
+          ></span
+        >. In my free-time I have engaged in a number of freelancing projects
+        which combined design and front end skills.
+      </p>
+    </div>
+
+    <div class="projects">
+      <h3>Projects</h3>
+      <div class="images">
+        <div class="image-section" onclick="directToMusicPage()">
+          <img
+            src="./images/music-store.jpg"
+            alt="link to music store"
+            title="Check out the Music Store Page"
+          />
+        </div>
+        <div class="image-section">
+          <img src="./images/crayons.jpg" alt="link to art store" />
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

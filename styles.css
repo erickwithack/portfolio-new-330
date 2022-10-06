@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap");
+/* general */
+* {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+body {
+  margin: 0px 100px;
+}
+
+/* icons */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+/* navbar */
+div.nav-navbar {
+  margin: 20px 0px;
+}
+
+div.nav-navbar nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.nav-navbar .logo h1 {
+  font-family: "Eczar", serif;
+  font-size: 25px;
+}
+
+div.nav-navbar .night-mode {
+  margin-top: 19px;
+}
+
+/* avatar-image */
+div.avatar-image {
+  text-align: center;
+}
+
+span.emph {
+  color: red;
+  font-weight: 900;
+}
+
+a.company-link {
+  text-decoration: none;
+  color: blue;
+}
+
+div.projects .images .image-section:hover,
+div.avatar-image p.icons i:hover,
+a.company-link:hover,
+div.nav-navbar .night-mode:hover {
+  cursor: pointer;
+}
+
+div.avatar-image p.icons i:first-child {
+  margin-right: 7px;
+}
+
+div.avatar-image img {
+  height: 500px;
+  width: 520px;
+  border-radius: 50%;
+}
+
+div.avatar-image p.title {
+  font-size: 36px;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+div.avatar-image a:hover {
+  color: red;
+}
+
+/* experience */
+div.experience {
+  margin: 30px 0px;
+}
+
+/* projects */
+div.projects .images {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+div.projects .images .image-section {
+  width: 100%;
+  flex: 1 0;
+  height: 850px;
+}
+
+div.projects .images div img {
+  height: 100%;
+  width: 100%;
+}
+
+/* night mode */
+.dark-mode {
+  background-color: rgb(17, 17, 17);
+  color: white;
+}
