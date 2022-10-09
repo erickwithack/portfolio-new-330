@@ -56,6 +56,10 @@ a.company-link {
   color: blue;
 }
 
+a.company-link:hover {
+  color: red;
+}
+
 div.projects .images .image-section:hover,
 div.avatar-image p.icons i:hover,
 a.company-link:hover,
